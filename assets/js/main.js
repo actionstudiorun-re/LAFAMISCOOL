@@ -1,0 +1,1 @@
+document.querySelectorAll('.card').forEach(card=>{card.addEventListener('click',()=>{const title=card.querySelector('h3')?.textContent||'Cours';alert(title+' : page détaillée à compléter.');});});
